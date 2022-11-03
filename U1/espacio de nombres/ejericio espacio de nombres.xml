@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<inversiones  xmlns:b1="C:\Users\TardeDAM\DAM Temario\Marcas\espacio de nombres\ciudades.xml"
+              xmlns:b2="C:\Users\TardeDAM\DAM Temario\Marcas\espacio de nombres\economia.xml">
+  <pais nombre="España">
+    <b1:capital>Madrid</b1:capital>
+    <b2:capital>2000&#x20AC;</b2:capital>
+  </pais>
+</inversiones>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<liga>
+    <equipo>
+        <nombre>PGS</nombre>
+        <ciudad>Paris</ciudad>
+        <entrenador></entrenador>
+        <jugadores>
+            <jugador posicion="Delantero">
+                <nombre>Lionel Messi</nombre>
+                <nacionalidad>Argentina</nacionalidad>
+            </jugador>
+            <jugador posicion="Defensa">
+                <nombre>Sergio Ramos</nombre>
+                <nacionalidad>Espana</nacionalidad>
+            </jugador>
+        </jugadores>
+    </equipo>
+    <equipo>
+        <nombre>FCBarcelona</nombre>
+        <ciudad>barcelona</ciudad>
+        <entrenador></entrenador>
+        <jugadores>
+            <jugador posicion="Delantero">
+                <nombre>Ourmane Dembele</nombre>
+                <nacionalidad>Francia</nacionalidad>
+            </jugador>
+            <jugador posicion="Centro">
+                <nombre>Pedri</nombre>
+                <nacionalidad>Espana</nacionalidad>
+            </jugador>
+        </jugadores>
+    </equipo>
+</liga>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<documento>
+    <autor>
+        <nombre></nombre>
+        <apellidos></apellidos>
+    </autor>
+    <titulo></titulo>
+    <personaje>
+        <nombre></nombre>
+        <apellidos></apellidos>
+        <edad></edad>
+    </personaje>
+</documento>

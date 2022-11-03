@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE address [
+    <!ELEMENT address (name, email, phone, birthday)>
+    <!ELEMENT name (first, last)>
+    <!ELEMENT first (#PCDATA)>
+    <!ELEMENT last (#PCDATA)>
+    <!ELEMENT email (#PCDATA)>
+    <!ELEMENT phone (#PCDATA)>
+    <!ELEMENT birthday (year, month, day)>
+    <!ELEMENT year (#PCDATA)>
+    <!ELEMENT month (#PCDATA)>
+    <!ELEMENT day (#PCDATA)>
+]>
+
+<address>
+    <name>
+        <first></first>
+        <last></last>
+    </name>
+    <email></email>
+    <phone></phone>
+    <birthday>
+        <year></year>
+        <month></month>
+        <day></day>
+    </birthday>
+</address>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<agencia>
+    <reparto origen="Oviedo" destino="Soria" cod_rep="56432165431">
+        <camioneta>
+            <matricula>1234GJK</matricula>
+            <numero_bastidor>12125454879563</numero_bastidor>
+            <repartidores_max>2</repartidores_max>
+            <paquetes_max>64</paquetes_max>
+        </camioneta>
+        <repartidores>
+            <repartidor cod_rep="976431">
+                <nombre>Manuel Alvarez</nombre>
+                <especialidad>Paquetes pesados</especialidad>
+                <email>maalv@yahoo.es</email>
+            </repartidor>
+            <repartidor cod_rep="6543215">
+                <nombre>Marcos Mesa</nombre>
+                <especialidad>Paquetes pesados</especialidad>
+                <email>mmesarep@yahoo.com</email>
+            </repartidor>
+        </repartidores>
+        <incidencias>
+            <incidencia cod_inc="2584">
+                <descripcion>La caja venia abollada en una de las esquinas</descripcion>
+            </incidencia>
+        </incidencias>
+        <fecha>
+            <dia>12</dia>
+            <mes>2</mes>
+            <anyo>2022</anyo>
+        </fecha>
+    </reparto>
+    <reparto origen="Oviedo" destino="Gijon" cod_rep="79465464984654">
+        <camioneta>
+            <matricula>1421GLL</matricula>
+            <numero_bastidor>1258732563</numero_bastidor>
+            <repartidores_max>1</repartidores_max>
+            <paquetes_max>120</paquetes_max>
+        </camioneta>
+        <repartidores>
+            <repartidor cod_rep="965431">
+                <nombre>Clara Gonzalez</nombre>
+                <especialidad>Entregas rapidas</especialidad>
+                <email>imclgo@yahoo.es</email>
+            </repartidor>
+        </repartidores>
+        <incidencias>
+            <incidencia cod_inc="1004">
+                <descripcion>No se ha podido localizar al destinatario</descripcion>
+            </incidencia>
+        </incidencias>
+        <fecha>
+            <dia>22</dia>
+            <mes>11</mes>
+            <anyo>2022</anyo>
+        </fecha>
+    </reparto>
+</agencia>

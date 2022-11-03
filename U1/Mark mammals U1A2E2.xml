@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mamiferos>
+	<animal>
+		<nombre>Gato montes</nombre>
+		<habitat>Zona forestal mediterranea</habitat>
+		<alimentacion>Carnivoro</alimentacion>
+		<extinto v="no" />
+	</animal>
+	<animal>
+		<nombre>Asturcon</nombre>
+		<habitat>Asturias y Leon, Espana</habitat>
+		<alimentacion>Herbivoro</alimentacion>
+		<extinto v="no" />
+	</animal>
+	<animal>
+		<nombre>Delfin</nombre>
+		<habitat>Oceano atlantico</habitat>
+		<alimentacion>Carnivoro</alimentacion>
+		<extinto v="no" />
+	</animal>
+</mamiferos>

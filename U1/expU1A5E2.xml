@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tienda>
+    <articulo>
+        <NombreArt>Ejemplo0</NombreArt>
+        <color>azul</color>
+        <talla>XS</talla>
+        <precio>12</precio>
+        <cantidad>400</cantidad>
+    </articulo>
+    <articulo>
+        <NombreArt>Ejemplo1</NombreArt>
+        <color>verde</color>
+        <talla>M</talla>
+        <precio>40</precio>
+        <cantidad>120</cantidad>
+    </articulo>
+</tienda>

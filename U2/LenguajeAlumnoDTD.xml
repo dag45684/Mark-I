@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE lenguaje[
+<!ELEMENT lenguaje (alumno, direccion, notas)>
+<!ELEMENT alumno (nombre, apellidos)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT apellidos (#PCDATA)>
+<!ELEMENT direccion (codigo, provincia)>
+<!ELEMENT codigo (#PCDATA)>
+<!ELEMENT provincia (#PCDATA)>
+<!ELEMENT notas (lengua, matematicas)>
+<!ELEMENT lengua (#PCDATA)>
+<!ELEMENT matematicas (#PCDATA)>
+]>
+
+<lenguaje>
+    <alumno>
+        <nombre/>
+        <apellidos/>
+    </alumno>
+    <direccion>
+        <codigo/>
+        <provincia></provincia>
+    </direccion>
+    <notas>
+        <lengua/>
+        <matematicas></matematicas>
+    </notas>
+</lenguaje>

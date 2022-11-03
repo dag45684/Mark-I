@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<facturacion>
+    <factura>
+        <empresa>
+            <nombre></nombre>
+            <direccion></direccion>
+            <telefono></telefono>
+            <NIF></NIF>
+        </empresa>
+        <cliente>
+            <nombre></nombre>
+            <direccion></direccion>
+            <telefono></telefono>
+            <NIF></NIF>
+        </cliente>
+        <productos>
+            <descripcion></descripcion>
+            <cantidad></cantidad>
+            <precio></precio>
+        </productos>
+        <informacion>
+            <baseImponible></baseImponible>
+            <IVA></IVA>
+            <total></total>
+            <formaPago></formaPago>
+        </informacion>
+    </factura>
+</facturacion>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mensajes [
+    <!ELEMENT mensajes (mensaje*)>
+    <!ELEMENT mensaje (de, para, hora, texto, concepto*)>
+    <!ELEMENT de (#PCDATA)>
+    <!ELEMENT para (#PCDATA)>
+    <!ELEMENT hora (#PCDATA)>
+    <!ELEMENT texto ANY>
+    <!ELEMENT strong (#PCDATA)>
+    <!ELEMENT concepto (#PCDATA)>
+]>
+<mensajes>
+    <mensaje>
+        <de> Andrés (AndrewReyes@gmail.com) </de>
+        <para> Lucas (LucasReyes@gmail.com) </para>
+        <hora> 14/03/2018 17:48:34 </hora>
+        <texto> Hola Lucas, ¿Qué tal? </texto>
+        <concepto> Nómina </concepto>
+    </mensaje>
+    <mensaje>
+        <de> Lucas (LucasReyes@gmail.com)) </de>
+        <para> Andrés (AndrewReyes@gmail.com </para>
+        <hora> 14/03/2018 17:50:15 </hora>
+        <texto>
+            Bien y
+            <strong> tú </strong>
+        </texto>
+    </mensaje>
+</mensajes>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<listafacturas>
+    <factura>
+        <importe></importe>
+        <fecha></fecha>
+        <emisor cif="">
+            <nombre></nombre>
+            <volumenventas></volumenventas>
+        </emisor>
+        <pagador cif="">
+            <nombre></nombre>
+            <volumenventas></volumenventas>
+        </pagador>
+    </factura>
+    <factura>
+        <importe></importe>
+        <fecha></fecha>
+        <emisor cif="">
+            <nombre></nombre>
+            <volumenventas></volumenventas>
+        </emisor>
+        <pagador cif="">
+            <nombre></nombre>
+            <volumenventas></volumenventas>
+        </pagador>
+    </factura>
+</listafacturas>

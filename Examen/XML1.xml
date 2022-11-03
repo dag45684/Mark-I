@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<correo>
+    <mensaje>
+        <origen>joseantoniotrabajo@gmail.com</origen>
+        <destinatarios>
+            <destinatario>anaalvarez@gmail.com</destinatario>
+            <destinatario>silviagz@gmail.com</destinatario>
+        </destinatarios>
+        <asunto>Saludo</asunto>
+        <cuerpo>Hola estoy probando que el email funcione correctamente</cuerpo>
+        <adjuntos></adjuntos>
+    </mensaje>
+    <mensaje>
+        <origen>carlosmg@gmail.com</origen>
+        <destinatarios>
+            <destinatario>silviagz@gmail.com</destinatario>
+        </destinatarios>
+        <asunto>Clase</asunto>
+        <cuerpo>pasame los deberes de hoy en clase</cuerpo>
+        <adjuntos></adjuntos>
+    </mensaje>
+</correo>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<curso>
+    <alumno>
+        <nombre>Joaquin Oscar</nombre>
+        <apellidos>Alvarez Garcia</apellidos>
+        <centro>IES Juan Sose Calvo Miguel</centro>
+        <localidad>Sotrondio</localidad>
+    </alumno>
+    <alumno>
+        <nombre>Eduardo</nombre>
+        <apellidos>Carreira Lopez</apellidos>
+        <centro>CIFP Aviles</centro>
+        <localidad>Aviles</localidad>
+    </alumno>
+    <alumno>
+        <nombre>Ricardo</nombre>
+        <apellidos>Fernandez Corte</apellidos>
+        <centro>IES Dr Fleming</centro>
+        <localidad>Oviedo</localidad>
+    </alumno>
+    <alumno>
+        <nombre>M Pilar</nombre>
+        <apellidos>Garcia Lopez</apellidos>
+        <centro>IES Numero 1</centro>
+        <localidad>Gijon</localidad>
+    </alumno>
+</curso>

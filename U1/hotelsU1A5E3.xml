@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<hospedaje>
+    <hotel>
+        <nombre></nombre>
+        <direccion>
+            <calle></calle>
+            <numero></numero>
+        </direccion>
+        <cuidad></cuidad>
+        <pais></pais>
+        <estrellas></estrellas>
+        <descripcion></descripcion>
+        <habIndividuales></habIndividuales>
+        <habDobles></habDobles>
+        <habTriples></habTriples>
+        <suites></suites>
+    </hotel>
+    <hotel>
+        <nombre></nombre>
+        <direccion>
+            <calle></calle>
+            <numero></numero>
+        </direccion>
+        <cuidad></cuidad>
+        <pais></pais>
+        <estrellas></estrellas>
+        <descripcion></descripcion>
+        <habIndividuales></habIndividuales>
+        <habDobles></habDobles>
+        <habTriples></habTriples>
+        <suites></suites>
+    </hotel>
+</hospedaje>

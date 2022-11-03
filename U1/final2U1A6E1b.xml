@@ -1,0 +1,74 @@
+<!-- <agenda>
+    <entrada>
+        <nombre_completo>Marta Elena Zorrilla</nombre_completo>
+        <direccion>
+            <calle>Avda Los Castros</calle>
+            <ciudad>Santander</ciudad>
+            <codigo_postal>39005</codigo_postal>
+            <region>Cantabria</region>>
+            <pais>Espana</pais>
+        </direccion>
+        <tel preferente="true">942201363</tel>
+        <correo_e href="zorrillm@unican.es" />
+    </entrada>
+</agenda> -->
+
+<!-- <cartelera>
+    <autor>Barto</autor>
+    <pelicula>
+        <titulo>Con faldas y a lo loco</titulo>
+        <director>Billy Wilder</director>
+    </pelicula>
+    <pelicula>
+        <titulo>Sopa de ganso</titulo>
+        <director>Leo McCarey</director>
+    </pelicula>
+</cartelera> -->
+
+<!-- <texto>
+    <titulo>XML explicado a los ninos</titulo>
+    <parrafo>El <abreviatura>XML</abreviatura> define como crear lenguajes de marcas.</parrafo>
+    <parrafo>Las marcas se anaden a un documento de texto para anadir informacion</parrafo>
+    <http href="www.example.org" />
+</texto> -->
+
+<!-- <frutas>
+    <fruta>
+        <nombre>cereza</nombre>
+    </fruta>
+    <fruta>
+        <nombre>naranja</nombre>
+    </fruta>
+</frutas> -->
+
+<!-- <figuras>
+    <figura_plana>
+        <nombre>cuadrado</nombre>
+        <lados n="4" />
+    </figura_plana>
+    <figura_plana>
+        <nombre>triangulo</nombre>
+        <lados n="4" />
+    </figura_plana>
+    <figura_tridimensional>
+        <nombre>cubo</nombre>
+        <aristas n="12" />
+        <caras n="12" />
+    </figura_tridimensional>
+</figuras> -->
+
+<?xml version="1.0" encoding="UTF-8"?>
+<menus>
+    <menu_barato precio="10" tarjeta="no">
+        <primero tipo="sobre">sopa</primero>
+        <segundo tipo="cerdo">chuleta</segundo>
+        <postre tipo="huevo">flan</postre>
+        <bebida tamano="0.5">agua</bebida>
+    </menu_barato>
+    <menu_caro precio="25">
+        <primero tipo="ibericos">entremeses</primero>
+        <segundo tipo="ternera">chuleton</segundo>
+        <postre tipo="casero">arroz con leche</postre>
+        <bebida tamano="1">rioja</bebida>
+    </menu_barato>
+</menus>

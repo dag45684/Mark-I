@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE ReyesESP [
+<!ELEMENT ReyesESP (rey*, reina*)>
+<!ELEMENT rey (nombre, padre, madre)>
+<!ELEMENT reina (nombre, padre, madre)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT padre (#PCDATA)>
+<!ELEMENT madre (#PCDATA)>
+]>
+
+<ReyesESP>
+    <rey>
+        <nombre> Felipe III </nombre>
+        <padre> Felipe II </padre>
+        <madre> Ana de Austria </madre>
+    </rey>
+    <rey>
+        <nombre> Carlos I </nombre>
+        <padre> Felipe I el Hermoso </padre>
+        <madre> Juana la Loca </madre>
+    </rey>
+    <reina>
+        <nombre> Juana la Loca </nombre>
+        <padre> Fernando el Católico </padre>
+        <madre> Isabel la Católica </madre>
+    </reina>
+</ReyesESP>

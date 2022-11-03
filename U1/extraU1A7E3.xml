@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<infoAlumnos>
+    <modulo obligatorio="si" hSemana="4">
+        <nombre>Lenguajes de Marcas y Sistemas de Gestion de informacion"</nombre>
+        <fechas>
+            <inicio>19 Septiembre 2022</inicio>
+            <final>30 Junio 2023</final>
+        </fechas>
+        <matriculas>
+            <alumno>
+                <nombre faltas="" nota="">Ana Fernandez Gutierrez</nombre>
+                <DNI>16965696L</DNI>
+                <tlef>789654321</tlef>
+                <email>ana.fdezgtrrez@hotmail.com</email>
+                <direccion>
+                    <calle n="13" cp="39302">Calle el percebe</calle>
+                    <ciudad>Santander</ciudad>
+                </direccion>
+            </alumno>
+            <alumno>
+                <nombre faltas="0" nota="apto">Pepito Grillo</nombre>
+                <DNI>98765432H</DNI>
+                <tlef>656566555</tlef>
+                <email>yhyh@yahoo.com</email>
+                <direccion>
+                    <calle n="5" cp="39401">Avd. el pez</calle>
+                    <ciudad>Suances</ciudad>
+                </direccion>
+            </alumno>
+        </matriculas>
+    </modulo>
+</infoAlumnos>

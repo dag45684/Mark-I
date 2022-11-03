@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<biblioteca>
+    <libro>
+        <titulo>lenguajes de marcas</titulo>
+        <autor>Autor 1</autor>
+    </libro>
+    <libro>
+        <titulo>bases de datos</titulo>
+        <autor>Autor 2</autor>
+    </libro>
+</biblioteca>

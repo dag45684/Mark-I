@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE marcapaginas [
+    <!ELEMENT marcapaginas (libro)>
+    <!ELEMENT libro (nombre, editorial, pagina)>
+    <!ELEMENT nombre (#PCDATA)>
+    <!ELEMENT editorial (#PCDATA)>
+    <!ELEMENT pagina (#PCDATA)>
+]>
+<marcapaginas>
+    <libro>
+        <nombre></nombre>
+        <editorial></editorial>
+        <pagina></pagina>
+    </libro>
+</marcapaginas>

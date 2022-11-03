@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ServMensajeria>
+    <mensaje>
+        <remitente>
+            <nombre>Topacio Jade</nombre>
+            <email>topacio.jade@mail.com</email>
+        </remitente>
+        <destinatario>
+            <nombre>Esmeralda Turquesa</nombre>
+            <email>eturquesa@gmail.com</email>
+        </destinatario>
+        <asunto>Informe de ventas</asunto>
+        <texto>
+            <parrafo>Ya esta acabado el informe</parrafo>
+            <parrafo>Lo he dejado en el servidor del departamento</parrafo>
+        </texto>
+    </mensaje>
+</ServMensajeria>

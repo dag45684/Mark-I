@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mensajin [
+    <!ELEMENT mensajin (para, de, asunto, contenido)>
+    <!ELEMENT para (#PCDATA)>
+    <!ELEMENT de (#PCDATA)>
+    <!ELEMENT asunto (#PCDATA)>
+    <!ELEMENT contenido (#PCDATA)>
+]>
+
+<mensajin>
+    <para>Tomas</para> <de>Liliana</de>
+    <asunto>Fiesta cumple pedro</asunto>
+    <contenido>Te toca pagar</contenido>
+</mensajin>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE persona [
+    <!ELEMENT persona (nombre, active, direccion, miscelanea)>
+    <!ELEMENT nombre (#PCDATA)>
+    <!ELEMENT active EMPTY>
+    <!ELEMENT direccion (calle, poblacion, provincia, cpostal)>
+    <!ELEMENT calle (#PCDATA)>
+    <!ELEMENT poblacion (#PCDATA)>
+    <!ELEMENT provincia (#PCDATA)>
+    <!ELEMENT cpostal (#PCDATA)>
+    <!ELEMENT miscelanea ANY>
+]>
+<persona>
+    <nombre></nombre>
+    <active/>    
+    <direccion>
+        <calle></calle>
+        <poblacion></poblacion>
+        <provincia></provincia>
+        <cpostal></cpostal>
+    </direccion>
+    <miscelanea></miscelanea>
+</persona>

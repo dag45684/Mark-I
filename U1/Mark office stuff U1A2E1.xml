@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<oficina>
+	<material>
+		<nombre>Cartucho de impresión</nombre>
+		<cantidad>15</cantidad>
+		<codigo>H810C17</codigo>
+		<recargado v="si" />
+	</material>
+<material>
+		<nombre>Raton optico</nombre>
+		<cantidad>2</cantidad>
+		<codigo>R12JF</codigo>
+		<conexion v="USB" />
+	</material>
+</oficina>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<agenda>
+    <contacto>
+        <nombre></nombre>
+        <apellidos></apellidos>
+        <direccion>
+            <ciudad></ciudad>
+            <calle n="" cp=""></calle>
+        </direccion>
+        <telefonos>
+            <casa></casa>
+            <movil></movil>
+            <trabajo></trabajo>
+        </telefonos>
+    </contacto>
+</agenda>
