@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE etiqueta [
+    <!ELEMENT etiqueta (nombre, domicilio, poblacion, provincia, cp, pais)>
+    <!ELEMENT nombre (#PCDATA)>
+    <!ELEMENT domicilio (#PCDATA)>
+    <!ELEMENT poblacion (#PCDATA)>
+    <!ELEMENT provincia (#PCDATA)>
+    <!ELEMENT cp (#PCDATA)>
+    <!ELEMENT pais (#PCDATA)>
+]>
+
+<etiqueta>
+    <nombre> Isidro López Garrido</nombre>
+    <domicilio> Av. Torrelavega 5, 3 izda </domicilio>
+    <poblacion> Oviedo </poblacion>
+    <provincia> Asturias</provincia>
+    <cp> 33005</cp>
+    <pais> España </pais>
+</etiqueta>

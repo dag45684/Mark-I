@@ -1,0 +1,33 @@
+
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE libro [
+    <!ELEMENT libro (titulo, autor, seccion*)>
+    <!ATTLIST libro editor NMTOKEN #IMPLIED>
+    <!ATTLIST libro distribuidor #FIXED "MyStore">
+    <!ATTLIST libro ISBN ID #REQUIRED>
+    <!ATTLIST libro impreso (si|no) #REQUIRED>
+    <!ELEMENT titulo (#PCDATA)>
+    <!ELEMENT autor (#PCDATA)>
+    <!ELEMENT seccion (nombre, contenido)>
+    <!ELEMENT nombre (#PCDATA)>
+    <!ELEMENT contenido (parrafo*)>
+    <!ELEMENT parrafo (#PCDATA)>
+]>
+
+<libro>
+    <titulo> La Primavera </titulo>
+    <autor> Juan Flores </autor>
+    <seccion>
+        <nombre> Introducción</nombre>
+        <contenido>
+            <parrafo> La primavera. Relato corto para peques </parrafo>
+        </contenido>
+    </seccion>
+    <seccion>
+        <nombre> Conclusiones</nombre>
+        <contenido>
+            <parrafo> Las flores salen </parrafo>
+            <parrafo> La sangre se altera </parrafo>
+        </contenido>
+    </seccion>
+</libro>

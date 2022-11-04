@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE futbol [
-    <!ELEMENT futbol ((jugador, equipo)*)>
+    <!ELEMENT futbol ((jugador | equipo)*)>
     <!ELEMENT jugador EMPTY>
     <!ATTLIST jugador nombre NMTOKENS #REQUIRED>
     <!ATTLIST jugador codigo ID #REQUIRED>
@@ -13,6 +13,6 @@
     <jugador nombre= "Edson Arantes" codigo= "ea" />
     <jugador nombre= "Diego Armando Maradona" codigo= "dam" />
     <jugador nombre= "Johan Cruyff" codigo= "jc" />
-    <equipo nombre= "Sevilla FC" jugadores= "Diego Armando Maradona" />
-    <equipo nombre= "FC Barcelona" jugadores= "Johan Cruyff" />
+    <equipo nombre= "Sevilla FC" jugadores= "dam" />
+    <equipo nombre= "FC Barcelona" jugadores= "jc dam" />
 </futbol>

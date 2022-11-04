@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<facturas>
+    <factura>
+        <empresa>
+            <nombre></nombre>
+            <direccion></direccion>
+            <poblacion cp="33011"></poblacion>
+            <cif numero="B-7435676"/>
+            <telefono n="91 433 15 57"/>
+        </empresa>
+        <cliente numero="1234984">
+            <nombre_cliente></nombre_cliente>
+            <direccion_envio></direccion_envio>
+            <poblacion_cliente cp_cli="33011"></poblacion_cliente>
+        </cliente>
+        <datos_factura pedido="012943">
+            <iva porcentaje="21"/>
+            <pago forma="tarjeta"/>
+            <moneda/>
+            <fecha></fecha>
+            <precio_unitario></precio_unitario>
+            <importe></importe>
+            <base></base>
+            <iva_pago></iva_pago>
+            <total></total>
+        </datos_factura>
+    </factura>
+</facturas>

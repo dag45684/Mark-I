@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE supermercado [
+    <!ELEMENT supermercado (articulo+)>
+    <!ELEMENT articulo (descripcion, marca, medida?, seccion, oferta*, perecedero?)>
+    <!ATTLIST articulo n_art ID #REQUIRED>
+    <!ATTLIST articulo cantidad NMTOKENS #IMPLIED>
+    <!ELEMENT descripcion (#PCDATA)>
+    <!ELEMENT marca (#PCDATA)>
+    <!ATTLIST marca tipo (nacional|internacional) #IMPLIED>
+    <!ELEMENT medida (#PCDATA)>
+    <!ATTLIST medida unidad CDATA #FIXED "Sistema Internacional">
+    <!ELEMENT oferta (#PCDATA)>
+    <!ELEMENT seccion (#PCDATA)>
+    <!ELEMENT perecedero (fabricacion)>
+    <!ELEMENT fabricacion (#PCDATA)>
+
+
+
+]>
+
+<supermercado>
+    <articulo n_art="articulo1" cantidad="300">
+        <descripcion>Yogurt</descripcion>
+        <marca tipo="nacional">Danone</marca>
+        <medida unidad="Sistema Internacional">1 Pack 4</medida>
+        <seccion>Lacteos</seccion>
+    </articulo>
+    <articulo n_art="articulo2">
+        <descripcion>Queso fresco</descripcion>
+        <marca tipo="nacional">Burgo de Arias</marca>
+        <medida>250 gr</medida>
+        <seccion>Lacteos</seccion>
+        <oferta>Lote descuento</oferta>
+        <perecedero>
+            <fabricacion>Febrero de 2018</fabricacion>
+        </perecedero>
+    </articulo>
+</supermercado>

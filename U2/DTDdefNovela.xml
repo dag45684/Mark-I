@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE novela [
+    <!ELEMENT novela (autor, titulo, parrafo*)>
+    <!ATTLIST novela fecha CDATA #REQUIRED>
+    <!ATTLIST novela lugar CDATA #REQUIRED>
+    <!ELEMENT autor (#PCDATA)>
+    <!ELEMENT titulo (#PCDATA)>
+    <!ELEMENT parrafo (#PCDATA)>
+]>
+
+<novela fecha= "1885" lugar= "Oviedo">
+    <autor> Leopoldo Alas Clarín </autor>
+    <titulo> La Regenta </titulo>
+    <parrafo> La heroica ciudad dormía la siesta. </parrafo>
+    <parrafo> El viento sur, caliente y perezoso, empujaba las nubes …</parrafo>
+</novela>

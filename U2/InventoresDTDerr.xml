@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE inventores [
+    <!ELEMENT inventores (inventor*)>
+    <!ELEMENT inventor EMPTY>
+    <!ATTLIST inventor nombre ID #IMPLIED>
+    <!ATTLIST inventor invento CDATA #REQUIRED>
+]>
+<inventores>
+    <inventor nombre= "RobertAdler" invento= "Mando a distancia"/>
+    <inventor nombre= "LaszloJosefBiro" invento= "Bolígrafo" />
+    <inventor nombre= "J.GarisCochran" invento= "Lavaplatos"/>
+    <inventor invento= "Rueda" />
+</inventores>
