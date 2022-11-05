@@ -1,0 +1,12 @@
+<!ELEMENT menus (menu+)>
+<!ELEMENT menu (comida, bebida)>
+<!ATTLIST menu precio CDATA #REQUIRED>
+<!ATTLIST menu tarjeta (si|no) #REQUIRED>
+<!ELEMENT comida (primero, segundo, postre)>
+<!ELEMENT primero ANY>
+<!ELEMENT segundo ANY>
+<!ELEMENT postre ANY>
+<!ELEMENT opcion EMPTY>
+<!ATTLIST opcion tipo CDATA #REQUIRED>
+<!ELEMENT bebida (#PCDATA)>
+<!ATTLIST bebida tamano CDATA #REQUIRED>

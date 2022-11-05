@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE listin SYSTEM "Listin.dtd">
+
+<listin>
+    <persona id="cmg" sexo="hombre">
+        <nombre>Carlos Manso</nombre>
+        <email>carlosm@gmail.com</email>
+        <relacion amigo-de="smr"/>
+    </persona>
+    <persona id="smr" sexo="mujer">
+        <nombre>Silvia Miguelez</nombre>
+        <email>silvm@gmail.com</email>
+    </persona>
+    <persona id="apl" sexo="mujer">
+        <nombre>Alba Palicio</nombre>
+        <email>albp@gmail.com</email>
+        <relacion enemigo-de="smr"/>
+    </persona>
+</listin>

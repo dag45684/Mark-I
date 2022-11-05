@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE menus SYSTEM "Menu.dtd">
+
+<menus>
+    <menu precio="10" tarjeta="no">
+        <comida>
+            <primero>
+                sopa
+                <opcion tipo="sobre"/>
+            </primero>
+            <segundo>
+                chuleta 
+                <opcion tipo="cerdo"/>
+            </segundo>
+            <postre>
+               flan 
+                <opcion tipo="huevo"/>
+            </postre>
+        </comida>
+        <bebida tamano="0.5">
+            agua
+        </bebida>
+    </menu>
+</menus>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Ordenadores SYSTEM "Ordenador.dtd">
+
+<Ordenadores>
+    <ordenador procesador="Xeon" velocidad="4.6GHz" memoria="32Gb" USB="3"/>
+    <ordenador procesador="Ryzen" velocidad="4.2GHz" memoria="128Gb" USB="7"/>
+</Ordenadores>

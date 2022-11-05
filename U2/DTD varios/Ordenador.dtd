@@ -1,0 +1,6 @@
+<!ELEMENT Ordenadores (ordenador*)>
+<!ELEMENT ordenador EMPTY>
+<!ATTLIST ordenador procesador CDATA #REQUIRED>
+<!ATTLIST ordenador velocidad CDATA #REQUIRED>
+<!ATTLIST ordenador memoria CDATA #REQUIRED>
+<!ATTLIST ordenador USB (1|3|5|7) #REQUIRED>
