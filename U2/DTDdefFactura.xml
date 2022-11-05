@@ -1,5 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
+<!DOCTYPE facturas [
+    <!ELEMENT facturas (factura*)>
+    <!ELEMENT factura (empresa, cliente, datos_factura)>
+    <!ELEMENT empresa (nombre, direccion, poblacion, cif, telefono)>
+    <!ELEMENT nombre (#PCDATA)>
+    <!ELEMENT direccion (#PCDATA)>
+    <!ELEMENT poblacion (#PCDATA)>
+    <!ATTLIST poblacion cp CDATA #REQUIRED>
+    <!ELEMENT cif EMPTY>
+    <!ATTLIST cif numero CDATA #REQUIRED>
+    <!ELEMENT telefono EMPTY>
+    <!ATTLIST telefono n CDATA #REQUIRED>
+    <!ELEMENT cliente (nombre_cliente, direccion_envio, poblacion_cliente)>
+    <!ATTLIST cliente numero CDATA #REQUIRED>
+    <!ELEMENT nombre_cliente (#PCDATA)>
+    <!ELEMENT direccion_envio (#PCDATA)>
+    <!ELEMENT poblacion_cliente (#PCDATA)>
+    <!ATTLIST poblacion_cliente cp_cli CDATA #REQUIRED>
+    <!ELEMENT datos_factura (iva, pago, moneda, fecha, descripcion, cantidad, precio_unitario, importe, base, iva_pago, total)>
+    <!ATTLIST datos_factura pedido CDATA #REQUIRED>
+    <!ELEMENT iva EMPTY>
+    <!ATTLIST iva porcentaje (4|12|21) #REQUIRED>
+    <!ELEMENT pago EMPTY>
+    <!ATTLIST pago forma (efectivo|tarjeta|plazos) #REQUIRED>
+    <!ELEMENT moneda EMPTY>
+    <!ATTLIST moneda tipo #FIXED "euros">
+    <!ELEMENT fecha (#PCDATA)>
+    <!ELEMENT descripcion (#PCDATA)>
+    <!ELEMENT cantidad (#PCDATA)>
+    <!ELEMENT precio_unitario (#PCDATA)>
+    <!ELEMENT importe (#PCDATA)>
+    <!ELEMENT base (#PCDATA)>
+    <!ELEMENT iva_pago (#PCDATA)>
+    <!ELEMENT total (#PCDATA)>
+]>
 
 <facturas>
     <factura>
@@ -18,13 +52,15 @@
         <datos_factura pedido="012943">
             <iva porcentaje="21"/>
             <pago forma="tarjeta"/>
-            <moneda/>
-            <fecha></fecha>
-            <precio_unitario></precio_unitario>
-            <importe></importe>
-            <base></base>
-            <iva_pago></iva_pago>
-            <total></total>
+            <moneda />
+            <fecha>31/01/2019</fecha>
+            <descripcion>text</descripcion>
+            <cantidad>20</cantidad>
+            <precio_unitario>100</precio_unitario>
+            <importe>2000</importe>
+            <base>21</base>
+            <iva_pago>210</iva_pago>
+            <total>2210</total>
         </datos_factura>
     </factura>
 </facturas>
