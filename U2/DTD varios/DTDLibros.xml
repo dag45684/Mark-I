@@ -2,12 +2,9 @@
 <!DOCTYPE Libros SYSTEM "Libros.dtd">
 
 <Libros>
-    <libro categoria="Fantasia" cubierta="dura" nota="5">
+    <libro categoria="Fantasia" cubierta="dura" nota="5" ISBN="923847">
         <titulo></titulo>
         <autor></autor>
         <editorial></editorial>
-    </libro>
-    <libro>
-
     </libro>
 </Libros>

@@ -1,5 +1,9 @@
 <!ELEMENT Libros (libro*)>
-<!ELEMENT libro EMPTY>
+<!ELEMENT libro ANY>
+<!ELEMENT titulo (#PCDATA)>
+<!ELEMENT autor (#PCDATA)>
+<!ELEMENT editorial (#PCDATA)>
+<!ATTLIST libro ISBN CDATA #REQUIRED>
 <!ATTLIST libro categoria (Ficcion|Fantasia|CienciaFiccion|Misterio|Terror|NoFiccion|Historico|Biografia) "Ficcion">
 <!ATTLIST libro cubierta (dura|blanda) "blanda">
 <!ATTLIST libro nota (1|2|3|4|5) "3">
