@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE conciertos SYSTEM "Conciertos.dtd">
+<conciertos>
+    <concierto telonerosSiNo="no">
+        <diaHora>2020-12-17T09:30:47</diaHora>
+        <duracion>P0Y0M0DT01H30M</duracion>
+        <cache>15000</cache>
+        <asunto>Aqui ira el nombre del concierto</asunto>
+    </concierto>
+    <contacto>
+        <nombre idioma="es"/>
+        <telefonoInternacional>+44 123 456789</telefonoInternacional>
+        <url>text</url>
+    </contacto>
+    <correo leidoSiNo="no">
+        <remitente>correo@dominio.jcm</remitente>
+        <destinatario>correo@dominio.jcm</destinatario>
+        <destinatario>correo@dominio.jcm</destinatario>
+        <asunto>string</asunto>
+        <cuerpo>string</cuerpo>
+    </correo>
+</conciertos>

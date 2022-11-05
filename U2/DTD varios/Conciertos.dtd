@@ -1,0 +1,17 @@
+<!ELEMENT conciertos (concierto, contacto, correo)+>
+<!ELEMENT concierto (diaHora, duracion, cache, asunto)>
+<!ATTLIST concierto telonerosSiNo (si|no) #REQUIRED>
+<!ELEMENT diaHora (#PCDATA)>
+<!ELEMENT duracion (#PCDATA)>
+<!ELEMENT cache (#PCDATA)>
+<!ELEMENT asunto (#PCDATA)> <!--Aplica al asunto en los tag de correo y concierto-->
+<!ELEMENT contacto (nombre, telefonoInternacional, url)>
+<!ELEMENT nombre EMPTY>
+<!ATTLIST nombre idioma (es|it|dk|pt) #REQUIRED>
+<!ELEMENT telefonoInternacional (#PCDATA)>
+<!ELEMENT url (#PCDATA)>
+<!ELEMENT correo (remitente, destinatario*, asunto, cuerpo)>
+<!ATTLIST correo leidoSiNo (si|no) #REQUIRED>
+<!ELEMENT remitente (#PCDATA)>
+<!ELEMENT destinatario (#PCDATA)>
+<!ELEMENT cuerpo (#PCDATA)>
