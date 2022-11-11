@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- numeros -->
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    
+    <xs:element name="numero" type="xs:int"/>
+    
+    <xs:element name="numeros">
+       <xs:complexType>
+        <xs:sequence>
+            <xs:element ref="numero"/>
+        </xs:sequence>
+       </xs:complexType> 
+    </xs:element>
+
+</xs:schema>
+
+<!-- letras -->
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+            
+    <xs:element name="letra_1" type="xs:char"/>
+    <xs:element name="letra_2" type="xs:string"/>
+
+    <xs:element name="letras">
+       <xs:complexType>
+        <xs:sequence>
+            <xs:element ref="letra_1" />
+            <xs:element ref="letra_2" />
+        </xs:sequence>
+       </xs:complexType> 
+    </xs:element>
+
+</xs:schema>
+
+<!-- Animales -->
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+    <xs:element name="perro" type="xs:char"/>
+    <xs:element name="gato" type="xs:string"/>
+
+    <xs:element name="animales">
+       <xs:complexType>
+        <xs:sequence>
+            <xs:element ref="perro"/>
+            <xs:element ref="gato"/>
+        </xs:sequence>
+       </xs:complexType> 
+    </xs:element>
+
+</xs:schema>
+
+<!-- escritores -->
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+    <xs:element name="nombre" type="xs:string"/>
+    <xs:element name="nacimiento" type="xs:date"/>
+
+    <xs:element name="escritor">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="nombre"/>
+                <xs:element ref="nacimiento"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="escritores">
+       <xs:complexType>
+        <xs:sequence>
+            <xs:element ref="escritor"/>
+        </xs:sequence>
+       </xs:complexType> 
+    </xs:element>
+
+</xs:schema>
+
+<!-- Sistema solar -->
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+    <xs:element name="planeta" type="xs:string"/>
+    <xs:element name="satelite" type="xs:string"/>
+    <xs:element name="asteroide" type="xs:string"/>
+
+    <xs:element name="cuerpo">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="planeta"/>
+                <xs:element ref="satelite"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="sistemaSolar">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="cuerpo"/>
+                <xs:element ref="asteroide"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+</xs:schema>

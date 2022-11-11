@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cartuchos>
+    <cartucho>
+        <marca>
+            <nombre></nombre>
+            <telefono></telefono>
+            <correoE></correoE>
+        </marca>
+        <modelo></modelo>
+        <maxPaginas></maxPaginas>
+        <fechaCaducidad></fechaCaducidad>
+    </cartucho>
+</cartuchos>
