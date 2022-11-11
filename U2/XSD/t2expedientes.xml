@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<expedientes xmlns:xsi="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../sct2expedientes.xsd">
+    <alumno>
+        <expediente></expediente>
+        <nombre></nombre>
+        <apellidos></apellidos>
+        <grupo></grupo>
+        <fechanac></fechanac>
+    </alumno>
+</expedientes>

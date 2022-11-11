@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<blog_cocina>
+    <articulo>
+        <referencia></referencia>
+        <titulo></titulo>
+        <fecha></fecha>
+        <publicado></publicado>
+        <clasificacion categoria="reposteria"/>
+    </articulo>
+    <articulo>
+        <referencia></referencia>
+        <titulo></titulo>
+        <fecha></fecha>
+        <publicado></publicado>
+        <clasificacion categoria="reposteria"/>
+    </articulo>
+</blog_cocina>
