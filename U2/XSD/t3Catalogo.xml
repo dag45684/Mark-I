@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<catalogo>
+    <producto>
+        <calidad valor=""/>
+        <nombre></nombre>
+        <referencia></referencia>
+        <stock></stock>
+        <precio></precio>
+        <comentario></comentario>
+    </producto>
+    <producto>
+        <nombre></nombre>
+        <referencia></referencia>
+    </producto>
+</catalogo>

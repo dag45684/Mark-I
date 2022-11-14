@@ -4,16 +4,21 @@
     <xs:element name="titulo"/>
     <xs:element name="fecha"/>
     <xs:element name="publicado"/>
-    <xs:element name="clasificacion"/>
-    <xs:attribute name="clasificacion"/>
+
+    <xs:element name="clasificacion">
+        <xs:complexType mixed="true">
+            <xs:attribute name="categoria" type="xs:string"/>
+        </xs:complexType>
+    </xs:element>
 
     <xs:element name="articulo">
         <xs:complexType>
             <xs:sequence>
                 <xs:element ref="referencia" />
-                <xs:element ref="referencia" />
+                <xs:element ref="titulo" />
                 <xs:element ref="fecha" />
                 <xs:element ref="publicado" />
+                <xs:element ref="clasificacion"/>
             </xs:sequence>
         </xs:complexType>
     </xs:element>

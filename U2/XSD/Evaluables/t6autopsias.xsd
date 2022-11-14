@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+<xs:element name="nombre"/>
+<xs:element name="ref"/>
+<xs:element name="origen"/>
+<xs:element name="destino"/>
+<xs:element name="doble"/>
+<xs:element name="carriles"/>
+<xs:element name="pk"/>
+<xs:element name="corte"/>
+<xs:element name="sentido"/>
+
+<xs:element name="retencion">
+    <xs:complexType>
+        <xs:attribute name="long"/>
+    </xs:complexType>
+</xs:element>
+
+<xs:element name="carrilescortados">
+    <xs:complexType>
+        <xs:attribute name="valor"/>
+    </xs:complexType>
+</xs:element>
+
+<xs:element name="via">
+    <xs:complexType>
+        <xs:sequence>
+            <xs:element ref="nombre" />
+            <xs:element ref="ref" />
+            <xs:element ref="origen" />
+            <xs:element ref="destino" />
+            <xs:element ref="doble" />
+            <xs:element ref="carriles" />
+        </xs:sequence>
+    </xs:complexType>
+</xs:element>
+
+<xs:element name="evento">
+    <xs:complexType>
+        <xs:sequence>
+            <xs:element ref="via"/>
+            <xs:element ref="pk"/>
+            <xs:element ref="retencion"/>
+            <xs:element ref="corte"/>
+            <xs:element ref="sentido"/>
+            <xs:element ref="carrilescortados"/>
+        </xs:sequence>
+        <xs:attribute name="fecha" use="required"/>
+        <xs:attribute name="tipo" use="required">
+            <xs:simpleType name="problema">
+
+            </xs:simpleType>
+        </xs:attribute>
+    </xs:complexType>
+</xs:element>
+
+<xs:element name="paneles">
+    <xs:complexType>
+        <xs:sequence>
+            <xs:element ref="evento" maxOccurs="unbounded"/>
+        </xs:sequence>
+    </xs:complexType>
+</xs:element>
+
+</xs:schema>

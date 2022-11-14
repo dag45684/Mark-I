@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="nombre"/>
+    <xs:element name="referencia"/>
+    <xs:element name="stock"/>
+    <xs:element name="precio"/>
+    <xs:element name="comentario"/>
+
+    <xs:element name="calidad">
+        <xs:complexType>
+            <xs:attribute name="valor" type="xs:string"/>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="producto">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="nombre"/>
+                <xs:element ref="referencia"/>
+                <xs:element ref="stock"/>
+                <xs:element ref="precio"/>
+                <xs:element ref="comentario"/>
+                <xs:element ref="calidad"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="catalogo">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="producto" maxOccurs="unbounded"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>
