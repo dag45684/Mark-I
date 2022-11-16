@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="dni"/>
+    <xs:element name="nombre"/>
+    <xs:element name="titulacion"/>
+    <xs:element name="curso_academico"/>
+    <xs:element name="tipo_matricula"/>
+    <xs:element name="trimestre"/>
+
+    <xs:element name="domicilios">
+        <xs:complexType> 
+            <xs:sequence>
+                <xs:element name="domicilio" minOccurs="1" maxOccurs="unbounded"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="pago">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="tipo_matricula"/>
+                <xs:element ref="trimestre"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="personal">
+        <xs:complexType> 
+            <xs:sequence>
+                <xs:element ref="dni"/>
+                <xs:element ref="nombre"/>
+                <xs:element ref="titulacion"/>
+                <xs:element ref="curso_academico"/>
+                <xs:element ref="domicilios"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="matricula">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="personal"/>
+                <xs:element ref="pago" minOccurs="1" maxOccurs="unbounded"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+</xs:schema>
