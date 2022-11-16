@@ -1,15 +1,58 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
 
-<xs:element name="nombre"/>
-<xs:element name="ref"/>
-<xs:element name="origen"/>
-<xs:element name="destino"/>
 <xs:element name="doble"/>
-<xs:element name="carriles"/>
-<xs:element name="pk"/>
-<xs:element name="corte"/>
-<xs:element name="sentido"/>
+<xs:element name="corte" fixed=""/>
+
+<xs:simpleType name="nombre">
+    <xs:restriction base="xs:string">
+        <xs:maxLength value="50"/>
+    </xs:restriction>
+</xs:simpleType>
+
+<xs:simpleType name="ref">
+    <xs:restriction base="xs:string">
+        <xs:pattern value="[A-Z]{3}-[0-9]{4}"/>
+    </xs:restriction>
+</xs:simpleType>
+
+<xs:simpleType name="origen">
+    <xs:restriction base="xs:string">
+        <xs:maxLength value="30"/>
+    </xs:restriction>
+</xs:simpleType>
+
+<xs:simpleType name="destino">
+    <xs:restriction base="xs:string">
+        <xs:maxLength value="30"/>
+    </xs:restriction>
+</xs:simpleType>
+
+<xs:simpleType name="carriles">
+    <xs:restriction base="xs:int">
+        <xs:minInclusive value="1"/>
+        <xs:maxInclusive value="8"/>
+    </xs:restriction>
+</xs:simpleType>
+
+<xs:simpleType name="pk">
+    <xs:restriction base="xs:decimal">
+        <xs:fractionDigits value="3"/>
+    </xs:restriction>
+</xs:simpleType>
+
+<xs:simpleType name="sentido">
+    <xs:restriction base="xs:int">
+        <xs:minInclusive value="-1"/>
+        <xs:maxInclusive value="1"/>
+    </xs:restriction>
+</xs:simpleType>
+
+<xs:simpleType name="long">
+    <xs:restriction base="xs:decimal">
+        <xs:fractionDigits value="3"/>
+    </xs:restriction>
+</xs:simpleType>
 
 <xs:element name="retencion">
     <xs:complexType>
@@ -19,39 +62,42 @@
 
 <xs:element name="carrilescortados">
     <xs:complexType>
-        <xs:attribute name="valor"/>
+        <xs:attribute name="valor" use="required"/>
     </xs:complexType>
 </xs:element>
 
 <xs:element name="via">
     <xs:complexType>
         <xs:sequence>
-            <xs:element ref="nombre" />
-            <xs:element ref="ref" />
-            <xs:element ref="origen" />
-            <xs:element ref="destino" />
+            <xs:element name="nombre" />
+            <xs:element name="ref" />
+            <xs:element name="origen" />
+            <xs:element name="destino" />
             <xs:element ref="doble" />
-            <xs:element ref="carriles" />
+            <xs:element name="carriles" />
         </xs:sequence>
     </xs:complexType>
 </xs:element>
 
+<xs:simpleType name="tipo">
+    <xs:restriction base="xs:string">
+        <xs:enumeration value="Accidente"/>
+        <xs:enumeration value="Retencion"/>
+    </xs:restriction>
+</xs:simpleType>
+
 <xs:element name="evento">
     <xs:complexType>
         <xs:sequence>
-            <xs:element ref="via"/>
-            <xs:element ref="pk"/>
+            <xs:element ref="via" minOccurs="1"/>
+            <xs:element name="pk" minOccurs="1"/>
             <xs:element ref="retencion"/>
             <xs:element ref="corte"/>
-            <xs:element ref="sentido"/>
+            <xs:element name="sentido" minOccurs="1"/>
             <xs:element ref="carrilescortados"/>
         </xs:sequence>
         <xs:attribute name="fecha" use="required"/>
-        <xs:attribute name="tipo" use="required">
-            <xs:simpleType name="problema">
-
-            </xs:simpleType>
-        </xs:attribute>
+        <xs:attribute name="tipo" use="required"/>
     </xs:complexType>
 </xs:element>
 
