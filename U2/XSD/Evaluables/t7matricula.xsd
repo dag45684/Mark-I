@@ -1,11 +1,52 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
-    <xs:element name="dni"/>
-    <xs:element name="nombre"/>
-    <xs:element name="titulacion"/>
-    <xs:element name="curso_academico"/>
-    <xs:element name="tipo_matricula"/>
-    <xs:element name="trimestre"/>
+    <xs:element name="dni" type="xs:string"/>
+    <xs:element name="curso_academico" type="xs:string"/>
+    <xs:element name="tipo_matricula" type="xs:string"/>
+    
+    <xs:simpleType name="nombre">
+        <xs:restriction base="xs:string">
+            <xs:pattern value="\w"/>
+            <xs:maxLength value="50"/>
+        </xs:restriction>
+    </xs:simpleType>
+   
+    <xs:simpleType name="cod">
+        <xs:restriction base="xs:string">
+            <xs:pattern value="(AST-)[a-z]{2}"></xs:pattern>
+        </xs:restriction>
+    </xs:simpleType>
+    
+    <xs:simpleType name="domicilio">
+        <xs:restriction base="xs:string">
+            <xs:pattern value="familiar|habitual"></xs:pattern>
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:simpleType name="cuota">
+        <xs:restriction base="xs:decimal">
+            <xs:maxInclusive value="700"/>
+            <xs:fractionDigits value="2"/>
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:element name="titulacion">
+        <xs:complexType>
+            <xs:attribute name="cod"/>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="domicilio">
+        <xs:complexType>
+            <xs:attribute name="tipo"/>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="trimestre">
+        <xs:complexType>
+            <xs:attribute name="cuota"/>
+        </xs:complexType>
+    </xs:element>
 
     <xs:element name="domicilios">
         <xs:complexType> 
@@ -28,7 +69,7 @@
         <xs:complexType> 
             <xs:sequence>
                 <xs:element ref="dni"/>
-                <xs:element ref="nombre"/>
+                <xs:element name="nombre"/>
                 <xs:element ref="titulacion"/>
                 <xs:element ref="curso_academico"/>
                 <xs:element ref="domicilios"/>
