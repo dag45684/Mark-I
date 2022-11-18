@@ -6,7 +6,7 @@
     
     <xs:simpleType name="nombre">
         <xs:restriction base="xs:string">
-            <xs:pattern value="\w"/>
+            <xs:pattern value="((\w+)+[ ]*)+"/>
             <xs:maxLength value="50"/>
         </xs:restriction>
     </xs:simpleType>
