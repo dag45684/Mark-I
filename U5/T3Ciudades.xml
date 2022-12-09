@@ -1,14 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="1.0">
-<xsl:template match="/ciudades">
-    <html>
-        <head> Ciudades </head>
-        <body>
-            <xsl:for-each select="ciudad">
-                <h1><xsl:value-of select="nombre"/> </h1>
-                <h3><xsl:value-of select="habitantes"/> </h3>
-            </xsl:for-each>
-        </body>
-    </html>
-</xsl:template>
-</xsl:stylesheet>
+<?xml-stylesheet href="T3Ciudades.xsl" type="text/xsl"?>
+<ciudades>
+    <ciudad>
+        <nombre>Navalmoral de la Mata</nombre>
+        <habitantes>10000</habitantes>
+    </ciudad>
+    <ciudad>
+        <nombre>Cáceres</nombre>
+        <habitantes>900000</habitantes>
+    </ciudad>
+    <ciudad>
+        <nombre>Badajoz</nombre>
+        <habitantes>110000</habitantes>
+    </ciudad>
+</ciudades>
