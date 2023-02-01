@@ -1,0 +1,14 @@
+body{
+    background-color: brown;
+}
+p{
+    color: fuchsia;
+    background-color: pink;
+    font-size: 250%;
+    text-align: center;
+    font-family: 'Arial';
+}
+ul{
+    background-color: fuchsia;
+    color: pink;
+}
