@@ -1,0 +1,16 @@
+body{
+    background-image: url("./Assets/movil.jpg");
+    background-repeat-y: no-repeat;
+}
+h1{
+    font-size: 4em;
+    color: darkorchid;
+}
+h2{
+    font-style: italic;
+    font-size: 2em;
+    color: fuchsia;
+}
+p{
+    text-indent: 30px;
+}
