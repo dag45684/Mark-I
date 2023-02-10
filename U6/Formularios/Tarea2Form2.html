@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        .pink{
+            background-color: fuchsia;
+            text-align: center;
+        }
+        .cream{
+            background-color: bisque;
+        }
+        .ctr{
+            margin-left: 12em;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="pink">
+        Por favor rellena estos datos
+    </div>
+    <div class="cream">
+        <form name="all">
+            <label>Nombre: <input class="ctr" type="text" name="nom" /><br></label>
+            <label>Apellidos: <input class="ctr" type="text" name="ape" /><br></label>
+            <label>Direccion: <input class="ctr" type="text" name="dir" /><br></label>
+            <label>Codigo postal: <input class="ctr" type="text" name="cp" /><br></label>
+            <label>Selecciona tu equipo: <input type="radio" name="miku" /> coches <input type="radio" name="AKG" /> GSR <br></label>
+            <label>Selecciona tu musica: <input type="checkbox" name="miku" /> Miku <input type="checkbox" name="AKG" /> AKG<br></label>
+            <label>Elige un escritor: <select class="ctr" name="escritor"></label>
+                <option>Ryukishi</option>
+                <option>laura gallego</option>
+                <option>unamuno</option>
+            </select><br>
+            <label>Algun comentario? <br><textarea class="ctr" name="com" rows="12" cols="50"></textarea><br></label>
+            <label>Adjunta tu foto: <button>Seleccionar archivo</button> Ningun archivo seleccionado<br></label>
+        </form>
+    </div>
+    <div class="pink">
+        <button class="ctr" type="submit" form="all">Enviar</button> 
+        <button class="ctr" type="reset" form="all">Borrar</button>
+    </div>
+</body>
+
+</html>
