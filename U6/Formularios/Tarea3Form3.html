@@ -1,38 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <title>Document</title>
-    </head>
-    <body>
-        <form name="all">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+
+<body>
+    <form name="all">
+        <fieldset>
+            Nombre de usuario: <input type="text" name="nom"><br>
+            Password: <input type="password" name="pas"><br>
+            Confirma tu Password: <input type="password" name="conf"><br>
+            edad: <input type="text" name="edad"><br>
+            email: <input type="text" name="ema"><br>
+            telefono: <input type="text" name="tel"><br>
+            fecha de nacimiento: <input type="text" name="fec"><br>
+            te identificas con:<input type="color" name="col"> <br>
+            <select name="horoscopo">
+                <option>Virgo</option>
+                <option>Libra</option>
+                <option>Acuario</option>
+            </select>
+            <br>
+        </fieldset>
+        <fieldset>
+            <legend>Datos de ocio</legend>
+            Horas diarias de ocio<br>
             <fieldset>
-                Nombre de usuario: <input type="text" name="nom"><br>
-                Password: <input type="password" name="pas"><br>
-                Confirma tu Password: <input type="password" name="conf"><br>
-                edad: <input type="text" name="edad"><br>
-                email: <input type="text" name="ema"><br>
-                telefono: <input type="text" name="tel"><br>
-                fecha de nacimiento: <input type="text" name="fec"><br>
-                te identificas con:<input type="color" name="col"> <br>
-                <select name="horoscopo">
-                    <option>Virgo</option>
-                    <option>Libra</option>
-                    <option>Acuario</option>
-                </select>
-                <br>
+                <legend>La mayor parte la dedicas a:</legend>
+                Programar <input type="checkbox" name="prog"><br>
+                Leer <input type="checkbox" name="prog"> <br>
+                Bailar <input type="checkbox" name="prog"> <br>
             </fieldset>
-            <fieldset>
-                <legend>Datos de ocio</legend>
-                Horas diarias de ocio<br>
-                <fieldset>
-                    <legend>La mayor parte la dedicas a:</legend>
-                    Programar <input type="checkbox" name="prog"><br>
-                    Leer <input type="checkbox" name="prog"> <br>
-                    Bailar <input type="checkbox" name="prog"> <br>
-                </fieldset>
-            </fieldset>
-        </form>
-        <button type="submit" form="all">Aceptar</button>
-    </body>
+        </fieldset>
+    </form>
+    <button type="submit" form="all">Aceptar</button>
+</body>
+
 </html>
