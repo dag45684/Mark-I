@@ -7,28 +7,46 @@
 </head>
 
 <body>
-    <h1>Reserva alojamientos,<br>hoteles y mucho mas en<br>Airbnb</h1>
     <form name="all">
-        DONDE<br>
-        <input type="text" value="En cualquier lugar" name="place"><br>
-        LLEGADA &emsp; &emsp; SALIDA<br>
-        <input type="date" name="ini"><input type="date" name="end"><br>
-        ADULTOS &emsp; &emsp; NINOS<br>
-        <select name="adu">
-            <option>1 adulto</option>
-            <option>2 adulto</option>
-            <option>3 adulto</option>
-            <option>4 adulto</option>
-        </select> &emsp; &emsp;
-        <select name="nin">
-            <option>1 nino</option>
-            <option>2 nino</option>
-            <option>3 nino</option>
-            <option>4 nino</option>
-        </select>
+        <form name="pat">
+            <input type="text" value="Patente" name="pat">
+            <button type="submit" form="pat">Buscar Patente</button><br>
+        </form><br>
+        <select name="mar">
+            <option value="" disabled selected>Marca</option>
+            <option>BMW</option>
+            <option>Mazda</option>
+            <option>Kia</option>
+        </select> <br>
+        <select name="yea">
+            <option value="" disabled selected>Ano</option>
+            <option>2021</option>
+            <option>2020</option>
+            <option>2019</option>
+        </select> <br>
+        <select name="mod">
+            <option value="" disabled selected>Tipo</option>
+            <option>2 plazas</option>
+            <option>5 plazas</option>
+            <option>7 plazas</option>
+        </select> <br>
+        <select name="ver">
+            <option value="" disabled selected>Modelo</option>
+            <option>Sport</option>
+            <option>Classic</option>
+            <option>Budget</option>
+        </select> <br>
+        <select name="km">
+            <option value="" disabled selected>Kilometros</option>
+            <option>0</option>
+            <option>>10000</option>
+            <option>>200000</option>
+        </select> <br>
+        <input type="text" name="email"><br>
+        <input type="checkbox" name="tyc"> Estoy de acuerdo con los Terminos y Condiciones<br>
     </form>
     <br>
-    <button type="submit" form="all">Buscar</button>
+    <button type="submit" form="all">Tasar</button>
 </body>
 
 </html>
