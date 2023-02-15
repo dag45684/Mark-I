@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Document</title>
+    </head>
+    <body>
+        <form name="all">
+            <fieldset>
+                <legend>Datos personales</legend>
+                Nombre:<br>
+                <input type="text" name="nom"><br>
+                Apellidos:<br>
+                <input type="text" name="ape"><br>
+                Direccion:<br>
+                <input type="text" name="dir"><br>
+                IBAN:<br>
+                <input type="text" name="IBAN"><br>
+            </fieldset>
+            <fieldset>
+                <legend>Tarifa</legend>
+                <select>
+                    <option>Tarifa Joven</option>
+                    <option>Tarifa Senior</option>
+                    <option>Tarifa Plana superior</option>
+                </select>
+            </fieldset>
+            <fieldset>
+                <legend>Fecha de inicio</legend>
+                <input type="date" name="date">
+            </fieldset>
+            <fieldset>
+                <legend>Notificaciones SMS</legend>
+                <input type="radio" name="nosms">No <input type="radio"
+                    name="sisms"> Si
+            </fieldset>
+        </form>
+        <button type="submit" form="all">Enviar</button>
+        <button type="reset" form="all">Reiniciar Formulario</button>
+    </body>
+</html>
