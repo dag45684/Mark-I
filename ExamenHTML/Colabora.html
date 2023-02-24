@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+   <form name="contacto" id="data">
+        <fieldset>
+            <legend><mark>Usuarios registrados</mark></legend> 
+                Usuarios: <input type="text" name="user" minlength="9">
+                Contrasena: <input type="password" name="pass">
+                <br>
+                Color grupo: <input type="color" name="col" value="#fff222">
+        </fieldset>
+        <fieldset>
+            <legend><mark>Usuarios no registrados</mark></legend>
+            Fecha de nacimiento: <input type="date" name="dat">
+            <br>
+            Rango de edad:  18-30 <input type="radio" name="ed"> 
+                            31-50 <input type="radio" name="ed"> 
+                            51-65 <input type="radio" name="ed">
+            <br>
+            <Select name="est">
+                <option selected disabled>--Nivel de Estudios--</option>
+                <option>Graduado escolar</option>
+                <option>ESO</option>
+                <option>CFGS</option>
+                <option>CFGM</option>
+                <option>Bachiller COU</option>
+                <option>Estudios Universitarios</option>
+            </Select>
+            <br>
+            <textarea placeholder="Breve CV" cols="40" rows="8"></textarea>
+            <br>
+            <input type="email" name="email">
+            <br>
+        </fieldset>
+    <input type="checkbox" name="TOS"> He leido y acepto los Terminos 
+    <button type="submit" form="data">Enviar formulario</button>
+   </form> 
+   <a href="/ExamenHTML/ExamenHTML5CarlosManso.html"><img src="/ExamenHTML/Assets/volver.JPG"></a> 
+</body>
+</html>
