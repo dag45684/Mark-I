@@ -1,0 +1,25 @@
+#navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.cont{
+    display: block;
+    justify-content: center;
+}
+
+.c{
+    width: 50%;
+    height: 50%;
+
+}
+
+.und{
+    display: block;
+    border-left: 3px solid orange;
+}
+
+img{
+    width: 100%;
+}
