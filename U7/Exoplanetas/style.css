@@ -23,7 +23,7 @@ a:hover{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.cont{
+.content{
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -35,7 +35,7 @@ a:hover{
 
 }
 
-.c{
+.entry{
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -47,7 +47,7 @@ a:hover{
     margin-top: 3em;
 }
 
-.und{
+.legend{
     border-left: 2px solid orange;
     padding-left: 5px;
     display: flex;
@@ -57,7 +57,7 @@ a:hover{
 
 }
 
-.sr{
+.source{
     display: flex;
     justify-self: left;
     align-items: start;
@@ -81,7 +81,7 @@ h1{
     text-align: center;
 }
 
-.intr{
+.introduction{
     text-align: center;
     font-size: larger;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
