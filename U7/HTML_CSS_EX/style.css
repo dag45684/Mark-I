@@ -1,0 +1,79 @@
+h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+header{
+    background: linear-gradient(azure, lightgrey) ;
+}
+
+nav{
+    text-decoration: none;
+    color: aqua;
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+
+img{
+    max-width: 400px;
+    max-height: 225px;
+}
+
+.Current{
+    color: black;
+    font-weight: bolder;
+    text-decoration: underline orange;
+}
+
+hr{
+    color: #eeeeee;
+}
+
+section{
+    width: 40%;
+    height: 40%;
+}
+
+#container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 10em;
+    flex-wrap: wrap;
+
+}
+
+#container_cen{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.legend{
+    font-family: 'Times New Roman', Times, serif;
+    padding-left: 20px;
+
+}
+
+.source{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: smaller;
+    color: grey;
+    border-left: solid 2px orangered;
+}
+
+.explanation{
+    font-style: italic;
+
+}
+
+footer{
+    background-color: black;
+    color: white;
+    text-decoration: none white;
+
+}
+
+.hehe{
+    height: 2em;
+    width: 2em;
+}
