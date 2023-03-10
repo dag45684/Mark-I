@@ -1,0 +1,67 @@
+body{
+    background-color: pink;
+}
+h2{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: blue;
+    text-decoration: underline solid 1px blue;
+}
+
+p{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: purple;
+}
+
+.res{
+    background-color: grey;
+    border: dotted 2px blue;
+}
+
+article{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    width: 70%;
+    height: auto;
+
+    text-align: justify;
+
+    margin: 2em;
+}
+
+section{
+    display: flex;
+    flex-direction: row;
+
+}
+
+.resumen{
+    width: 20%;
+    height: auto;
+    margin-top: 10em;
+}
+
+h1{
+    color: white;
+    background-image: url(img-regenta.jpg);
+    background-size: cover;
+    background-position: center;
+
+    padding-left: 10px;
+
+    height: 100px;
+    width: 100vw;
+
+    margin: -10px -10px -10px -10px;
+}
+
+cite{
+    font-size: 80px;
+}
+
+.regenta{
+    width: 40px;
+    height: 40px;
+    margin-right: 1em;
+}
