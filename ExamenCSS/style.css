@@ -1,0 +1,136 @@
+/* Main style */
+.main{
+    background-image: url(./imagenes/pinguino.jpg);
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    text-align: left;
+}
+
+/* Link styles */
+a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    width: 15%;
+    margin-top: 8em;
+    margin-right: -1em;
+    border-bottom: solid transparent;
+}
+a:visited{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+a:hover{
+    color: white;
+    font-weight: bold;
+    border-bottom: solid yellow;
+}
+/* End of main style */
+
+/* global adjustments */
+header{
+    color: white;
+    background-color: purple;
+    padding-left: 3em;
+    font-size: x-large;
+    font-weight: bold;
+}
+/* end global adjustments */
+
+/* Pregunta 1 */
+
+/* general table theme */
+table{
+    border-collapse: separate;
+    border-spacing: 0 30px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    font-weight: bold;
+}
+
+/* specifics table theme */
+th{
+    padding: 1em 1em 1em 1em;
+    background-color: #eeeeee;
+}
+tr{
+    padding: 1em 1em 1em 1em;
+    background-color: #eeeeee;
+}
+td{
+    padding: 1em 1em 1em 1em;
+    background-color: #eeeeee;
+}
+
+/* right alineation */
+#right{
+    text-align: right;
+}
+
+/* purple col */
+.purple{
+    background-color: purple;
+    color: white;
+}
+
+/* purple row */
+th{
+    background-color: purple;
+    color: white;
+}
+
+/* white square */
+.sp{
+    background-color: white;
+}
+
+/* pair and odd rotation */
+.pair{
+    transform: rotate(-3deg);
+}
+.odd{
+    transform: rotate(3deg);
+}
+/* fin pregunta 1 */
+
+/* Pregunta 2 */
+
+/* form general setting */
+form{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3em;
+    width: 60%;
+}
+
+/* form comp theme */
+input{
+    width: 100%;
+    font-weight: bold;
+}
+textarea{
+    width: 100%;
+    height: 100px;
+    font-weight: bold;
+}
+.button{
+    background-color: #eeeeee;
+}
+
+/* hover effects */
+textarea:hover{
+    background-color: purple;
+    color: white;
+    font-weight: bold;
+}
+input:hover{
+    background-color: purple;
+    color: white;
+    font-weight: bold;
+}
+/* fin pregunta 2 */

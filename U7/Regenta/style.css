@@ -4,7 +4,8 @@ body{
 h2{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: blue;
-    text-decoration: underline solid 1px blue;
+    border-bottom: 2px solid blue;
+    
 }
 
 p{
