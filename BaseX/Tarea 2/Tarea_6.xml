@@ -1,0 +1,33 @@
+<bailes>
+  <baile id="4">
+    <profesor>Jesus Lozano</profesor>
+    <nombre>Merengue</nombre>
+    <comienzo>1/1/2019</comienzo>
+  </baile>
+  <baile id="6">
+    <profesor>Miriam Gutierrez</profesor>
+    <nombre>Pasodoble</nombre>
+    <comienzo>1/1/2019</comienzo>
+  </baile>
+  <baile id="1">
+    <profesor>Roberto Garcia</profesor>
+    <nombre>Tango</nombre>
+    <comienzo>1/1/2019</comienzo>
+  </baile>
+</bailes>
+<!-- 
+<bailes>
+   {
+    for $e in (doc('bailes.xml')//baile)
+      where contains($e/comienzo, "/1/")
+       order by $e/profesor 
+          return 
+            <baile id="{$e/@id}">
+              {$e/profesor}
+              {$e/nombre}
+              {$e/comienzo}
+            </baile>
+      
+    }
+</bailes>
+-->

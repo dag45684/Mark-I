@@ -1,0 +1,32 @@
+<bib>
+    <libro>
+      <titulo>Advanced Programming for Unix environment</titulo>
+      <ano>1992</ano>
+    </libro>
+    <libro>
+      <titulo>TCP/IP Illustrated</titulo>
+      <ano>1994</ano>
+    </libro>
+    <libro>
+      <titulo>Economics of Technology for Digital TV</titulo>
+      <ano>1999</ano>
+    </libro>
+    <libro>
+      <titulo>Data on the Web</titulo>
+      <ano>2000</ano>
+    </libro>
+  </bib>
+
+  <!-- 
+    <bib>
+    {
+        for $e in doc('libros_base.xml')//libro
+        order by $e/@anyo/string()
+            return 
+            <libro>
+                {$e/titulo}
+                <ano>{$e/@anyo/string()}</ano>
+            </libro>
+    }
+    </bib>
+  -->

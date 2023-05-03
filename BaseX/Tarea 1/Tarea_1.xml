@@ -1,0 +1,16 @@
+<bib>
+    <titulo>TCP/IP Illustrated</titulo>
+    <titulo>Advanced Programming for Unix environment</titulo>
+    <titulo>Data on the Web</titulo>
+    <titulo>Economics of Technology for Digital TV</titulo>
+</bib>
+
+<!-- 
+    <bib>
+        {
+            for $e in doc('libros_base.xml')//libro
+            return 
+            $e/titulo
+        }
+    </bib>
+  -->

@@ -1,0 +1,11 @@
+<bailes>
+  <plazas>22</plazas>
+</bailes>
+<!-- 
+    <bailes>
+        {
+            let $e :=  doc('bailes.xml')/bailes/baile[profesor = "Jesus Lozano"]
+            return <plazas>{sum($e/plazas)}</plazas>
+        }
+    </bailes>
+-->

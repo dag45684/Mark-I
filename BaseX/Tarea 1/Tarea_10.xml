@@ -1,0 +1,30 @@
+<bib>
+    <libro>
+      <titulo>TCP/IP Illustrated</titulo>
+      <nAutores>1</nAutores>
+    </libro>
+    <libro>
+      <titulo>Advanced Programming for Unix environment</titulo>
+      <nAutores>1</nAutores>
+    </libro>
+    <libro>
+      <titulo>Data on the Web</titulo>
+      <nAutores>3</nAutores>
+    </libro>
+    <libro>
+      <titulo>Economics of Technology for Digital TV</titulo>
+      <nAutores>0</nAutores>
+    </libro>
+</bib>
+<!-- 
+<bib>
+  {
+      for $e in (doc('libros_base.xml')//libro)
+          return 
+             <libro>
+               <titulo>{$e/titulo/string()}</titulo>
+               <nAutores>{count($e/autor)}</nAutores>   
+             </libro>
+  }
+</bib>
+-->

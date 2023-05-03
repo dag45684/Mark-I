@@ -1,0 +1,24 @@
+<bib>
+    <libro>
+        <titulo>Advanced Programming for Unix environment</titulo>
+        <ano>1992</ano>
+    </libro>
+    <libro>
+        <titulo>TCP/IP Illustrated</titulo>
+        <ano>1994</ano>
+    </libro>
+</bib>
+<!-- 
+    <bib>
+    {
+        for $e in doc('libros_base.xml')//libro
+        order by $e/@anyo/string()
+        where $e/editorial = "Addison-Wesley"
+            return 
+            <libro>
+                {$e/titulo}
+                <ano>{$e/@anyo/string()}</ano>
+            </libro>
+    }
+    </bib>
+-->

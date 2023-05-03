@@ -1,0 +1,16 @@
+<apellidos>
+    <apellido>Abiteboul</apellido>
+    <apellido>Buneman</apellido>
+    <apellido>Stevens</apellido>
+    <apellido>Suciu</apellido>
+</apellidos>
+
+<!--
+<apellidos>
+    {
+        for $e in distinct-values(doc('libros_base.xml')//libro/autor/apellido/string())
+            order by $e
+            return <apellido>{$e}</apellido>
+    }
+</apellidos>
+-->

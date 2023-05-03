@@ -1,0 +1,20 @@
+<bib>
+    <libro>
+        <titulo>Economics of Technology for Digital TV</titulo>
+        <ano>1999</ano>
+    </libro>
+</bib>
+<!-- 
+<bib>
+  {
+      for $e in doc('libros_base.xml')//libro
+      where count($e/autor) < 1
+      order by $e/@anyo/string()
+          return 
+          <libro>
+              {$e/titulo}
+              <ano>{$e/@anyo/string()}</ano>
+          </libro>
+  }
+</bib>
+-->

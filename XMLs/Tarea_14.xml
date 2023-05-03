@@ -1,0 +1,18 @@
+<bailes>
+  <baile>
+    <nombre>Rock</nombre>
+    <beneficio>450</beneficio>
+  </baile>
+</bailes>
+<!-- 
+    <bailes>
+        {
+            for $e in  doc('bailes.xml')/bailes/baile[starts-with(profesor, "Laura")]
+                return
+                <baile>
+                    <nombre>{$e/nombre/text()}</nombre>
+                    <beneficio>{$e/plazas * $e/precio}</beneficio>
+                </baile>
+        }
+    </bailes>
+-->

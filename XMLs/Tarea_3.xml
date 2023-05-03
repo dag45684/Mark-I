@@ -1,0 +1,16 @@
+<bailes>
+    <nombre>Cha-cha-cha</nombre>
+    <nombre>Merengue</nombre>
+</bailes>
+
+<!-- 
+<bailes>
+   {
+        for $e in (doc('bailes.xml')//baile)
+          where $e/precio/number() ge 75 and $e/precio/number() le 90
+          order by $e/nombre
+              return 
+                $e/nombre
+    }
+</bailes>
+-->

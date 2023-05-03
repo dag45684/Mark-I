@@ -1,0 +1,128 @@
+# Paths
+INPUTPATH = C:/Users/TardeDAM/DAM Temario/Marcas/XMLs/
+DATAPATH = C:\Program Files (x86)\BaseX\
+WORKPATH = C:/Users/TardeDAM/DAM Temario/Marcas/XMLs/
+PROJECTPATH = C:/Users/TardeDAM/DAM Temario/Marcas/XMLs/
+
+# Layout
+FONT = SansSerif
+MONOFONT = Consolas
+FONTTYPE = 0
+FONTSIZE = 15
+ONLYMONO = false
+COLORRED = 15
+COLORGREEN = 11
+COLORBLUE = 6
+
+# Windows
+UPDATEVERSION = 10.5
+VIEWS = H V editor text - V info H H V H folder plot - H table explore - - map - tree - - - 
+GUISIZE0 = 814
+GUISIZE1 = 867
+GUILOC0 = 793
+GUILOC1 = 0
+MAXSTATE = false
+SHOWBUTTONS = true
+SHOWINPUT = true
+SHOWSTATUS = true
+SHOWINFO = false
+SHOWMAP = false
+SHOWTABLE = false
+SHOWTEXT = true
+SHOWFOLDER = false
+SHOWEXPLORE = false
+SHOWPLOT = false
+SHOWEDITOR = true
+SHOWTREE = true
+SHOWPROJECT = true
+PREFTAB = 0
+LOOKANDFEEL = 
+SHOWNAME = true
+SCROLLTABS = true
+MOUSEFOCUS = false
+XMLSUFFIXES = xml,xsd,svg,rdf,rss,rng,sch,xhtml
+ASCSORT = true
+CASESORT = true
+MERGEDUPL = false
+COLUMN = 1
+UNICODE = true
+SHOWMARGIN = true
+MARGIN = 80
+TABSPACES = true
+INDENT = 2
+SHOWINVISIBLE = true
+SHOWNL = false
+SHOWLINES = true
+MARKLINE = true
+SAVERUN = false
+PARSEPROJ = true
+AUTO = true
+FILES = *.xml, *.xq*
+SHOWHIDDEN = false
+SEARCHMODE = 0
+FILTERRT = false
+EXECRT = false
+DBNAME = XMLs
+LASTINSERT = 1
+
+# Visualizations
+MAPATTS = false
+MAPOFFSETS = 3
+MAPALGO = 0
+MAPWEIGHT = 0
+TREESLIM = true
+TREEATTS = false
+PLOTDOTS = 0
+PLOTXLOG = false
+PLOTYLOG = false
+MAXTEXT = 8388608
+MAXRESULTS = 500000
+
+# Search
+SEARCHED = 0
+REPLACED = 0
+
+# History
+COMMANDS = 10
+COMMANDS1 = /libro/@anyo/string()
+COMMANDS2 = //libro/@anyo/string()
+COMMANDS3 = for $d in doc("")
+COMMANDS4 = for $d in
+COMMANDS5 = for $p in /productos/producto where $p/año > 2007 return $p
+COMMANDS6 = <denominacion>{doc("productos.xml")/productos/producto[año>2007]}</denominacion>
+COMMANDS7 = <denominaciones>{doc("productos.xml")/productos/producto[año>2007]}</denominaciones>
+COMMANDS8 = for <denominaciones>{doc("productos.xml")/productos/producto[año>2007]}</denominaciones>
+COMMANDS9 = <aulas>{doc("productos.xml")/productos/producto[aula=2 and precio<100]}</aulas>
+COMMANDS10 = <aulas>{doc("productos.xml")/cursos/curso[aula=2 and precio<100]}</aulas>
+SEARCH = 1
+SEARCH1 = //afiliacion
+XQUERY = 0
+
+# Files
+EDITOR = 9
+EDITOR1 = C:/Users/TardeDAM/DAM Temario/Marcas/XMLs/FINAL3p2.html
+EDITOR2 = C:/Users/TardeDAM/DAM Temario/Marcas/XMLs/FINAL5p2.xml
+EDITOR3 = C:/Users/TardeDAM/DAM Temario/Marcas/XMLs/bailes.xml
+EDITOR4 = C:/Users/TardeDAM/DAM Temario/Marcas/XMLs/FINAL4p2.xml
+EDITOR5 = C:/Users/TardeDAM/DAM Temario/Marcas/XMLs/FINAL12.html
+EDITOR6 = C:/Users/TardeDAM/DAM Temario/Marcas/XMLs/libros_base.xml
+EDITOR7 = C:/Users/TardeDAM/DAM Temario/Marcas/XMLs/FINAL11.html
+EDITOR8 = C:/Users/TardeDAM/DAM Temario/Marcas/XMLs/FINAL5.xml
+EDITOR9 = C:/Users/TardeDAM/DAM Temario/Marcas/XMLs/FINAL2.xml
+INPUTS = 3
+INPUTS1 = C:/Users/TardeDAM/DAM Temario/Marcas/XMLs/
+INPUTS2 = C:/Users/CICLOS/Desktop/productos.xml
+INPUTS3 = C:\Program Files (x86)\BaseX\
+OPEN = 2
+OPEN1 = C:/Users/TardeDAM/DAM Temario/Marcas/XMLs/bailes.xml
+OPEN2 = C:/Users/TardeDAM/DAM Temario/Marcas/XMLs/FINAL3p2.html
+PROJECTS = 3
+PROJECTS1 = C:/Users/TardeDAM/DAM Temario/Marcas/XMLs/
+PROJECTS2 = C:/Users/TardeDAM/DAM Temario/Marcas/U5/
+PROJECTS3 = C:/Users/TardeDAM/DAM Temario/
+PROJFILES = 2
+PROJFILES1 = consulta_1.xq
+PROJFILES2 = equipos.xml
+PROJCONTS = 0
+
+# Local Options

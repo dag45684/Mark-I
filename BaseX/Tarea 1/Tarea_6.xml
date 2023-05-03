@@ -1,0 +1,21 @@
+<bib>
+    <libro>
+        <titulo>Data on the Web</titulo>
+        <ano>2000</ano>
+    </libro>
+</bib>
+
+<!-- 
+    <bib>
+    {
+        for $e in doc('libros_base.xml')//libro
+        where count($e/autor) > 1
+        order by $e/@anyo/string()
+            return 
+            <libro>
+                {$e/titulo}
+                <ano>{$e/@anyo/string()}</ano>
+            </libro>
+    }
+    </bib>
+-->

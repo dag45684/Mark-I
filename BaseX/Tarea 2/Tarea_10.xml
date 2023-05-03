@@ -1,0 +1,12 @@
+<bailes>
+   <media>94</media>
+</bailes>
+<!-- 
+    <bailes>
+    {
+        let $e := doc('bailes.xml')//baile
+            return 
+                <media>{avg($e/precio)}</media>
+        }
+    </bailes>
+-->

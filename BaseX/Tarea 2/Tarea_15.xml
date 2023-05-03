@@ -1,0 +1,48 @@
+<bailes>
+  <baile>
+    <nombre>Cha-cha-cha</nombre>
+    <precio>80 euro</precio>
+    <familiar>68 euro</familiar>
+  </baile>
+  <baile>
+    <nombre>Merengue</nombre>
+    <precio>75 dolares</precio>
+    <familiar>63.75 dolares</familiar>
+  </baile>
+  <baile>
+    <nombre>Pasodoble</nombre>
+    <precio>320 euro</precio>
+    <familiar>272 euro</familiar>
+  </baile>
+  <baile>
+    <nombre>Rock</nombre>
+    <precio>30 euro</precio>
+    <familiar>25.5 euro</familiar>
+  </baile>
+  <baile>
+    <nombre>Salsa</nombre>
+    <precio>32 euro</precio>
+    <familiar>27.2 euro</familiar>
+  </baile>
+  <baile>
+    <nombre>Tango</nombre>
+    <precio>27 euro</precio>
+    <familiar>22.95 euro</familiar>
+  </baile>
+</bailes>
+
+<!-- 
+    <bailes>
+    {
+        let $space := '&#32;'
+        for $e in  doc('bailes.xml')/bailes/baile
+        order by $e/nombre
+        return 
+        <baile>
+            {$e/nombre}
+            <precio>{$e/precio/text()}{$space}{$e/precio/@moneda/string()}</precio>
+            <familiar>{$e/precio * 0.85}{$space}{$e/precio/@moneda/string()}</familiar>
+        </baile>
+        }
+    </bailes>
+-->

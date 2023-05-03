@@ -1,0 +1,40 @@
+<bib>
+    <libro anyo="1994">
+      <titulo>TCP/IP Illustrated</titulo>
+      <autor>
+        <apellido>Stevens</apellido>
+        <nombre>W.</nombre>
+      </autor>
+      <editorial>Addison-Wesley</editorial>
+      <precio>65.95</precio>
+    </libro>
+    <libro anyo="1992">
+      <titulo>Advanced Programming for Unix environment</titulo>
+      <autor>
+        <apellido>Stevens</apellido>
+        <nombre>W.</nombre>
+      </autor>
+      <editorial>Addison-Wesley</editorial>
+      <precio>65.95</precio>
+    </libro>
+    <libro anyo="1999">
+      <titulo>Economics of Technology for Digital TV</titulo>
+      <editor>
+        <apellido>Gerbarg</apellido>
+        <nombre>Darcy</nombre>
+        <afiliacion>CITI</afiliacion>
+      </editor>
+      <editorial>Kluwer Academic editorials</editorial>
+      <precio>129.95</precio>
+    </libro>
+  </bib>
+
+<!-- 
+    <bib>
+        {
+            for $e in doc('libros_base.xml')//libro
+            where $e/@anyo/string() < "2000"
+                return $e
+        }
+    </bib>
+-->

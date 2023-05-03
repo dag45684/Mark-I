@@ -1,0 +1,34 @@
+<bailes>
+  <sala>
+    <numero>1</numero>
+    <profesores>
+      <profesor>Roberto Garcia</profesor>
+      <profesor>Miriam Gutierrez</profesor>
+      <profesor>Laura Mendiola</profesor>
+    </profesores>
+  </sala>
+  <sala>
+    <numero>2</numero>
+    <profesores>
+      <profesor>Jesus Lozano</profesor>
+    </profesores>
+  </sala>
+</bailes>
+<!-- 
+<bailes>
+   {
+    for $e in distinct-values(doc('bailes.xml')//baile/sala)
+          return 
+            <sala>
+              <numero>{$e}</numero>
+              <profesores>
+                {
+                   for $p in distinct-values(doc('bailes.xml')//baile[sala = $e]/profesor)
+                    return 
+                      <profesor>{$p}</profesor>
+                }
+              </profesores>
+            </sala>
+    }
+</bailes>   
+-->

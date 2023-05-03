@@ -1,0 +1,11 @@
+<bailes>
+  <total_sala_1>457</total_sala_1>
+</bailes>
+<!-- 
+    <bailes>
+        {
+        let $e :=  doc('bailes.xml')/bailes/baile[sala=1]
+        return <total_sala_1>{sum($e/precio)}</total_sala_1>
+        }
+    </bailes>
+-->

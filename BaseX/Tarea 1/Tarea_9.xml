@@ -1,0 +1,30 @@
+<bib>
+    <libro>
+      <titulo>TCP/IP Illustrated</titulo>
+      <apellidoAuto>Stevens</apellidoAuto>
+    </libro>
+    <libro>
+      <titulo>Advanced Programming for Unix environment</titulo>
+      <apellidoAuto>Stevens</apellidoAuto>
+    </libro>
+    <libro>
+      <titulo>Data on the Web</titulo>
+      <apellidoAuto>Abiteboul Buneman Suciu</apellidoAuto>
+    </libro>
+    <libro>
+      <titulo>Economics of Technology for Digital TV</titulo>
+      <apellidoAuto/>
+    </libro>
+</bib>
+<!-- 
+<bib>
+  {
+      for $e in (doc('libros_base.xml')//libro)
+          return 
+             <libro>
+               <titulo>{$e/titulo/string()}</titulo>
+               <apellidoAuto>{$e/autor/apellido/string()}</apellidoAuto>   
+             </libro>
+  }
+</bib>
+-->

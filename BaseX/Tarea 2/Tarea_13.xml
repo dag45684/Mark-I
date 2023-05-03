@@ -1,0 +1,23 @@
+<bailes>
+  <baile>
+    <nombre>Merengue</nombre>
+    <beneficio>900</beneficio>
+  </baile>
+  <baile>
+    <nombre>Salsa</nombre>
+    <beneficio>320</beneficio>
+  </baile>
+</bailes>
+<!-- 
+    <bailes>
+        {
+            for $e in doc('bailes.xml')/bailes/baile
+                where $e/profesor = "Jesus Lozano"
+                return 
+                <baile>
+                    <nombre>{$e/nombre/text()}</nombre>
+                    <beneficio>{$e/plazas * $e/precio}</beneficio>
+                </baile>
+        }
+    </bailes>
+-->

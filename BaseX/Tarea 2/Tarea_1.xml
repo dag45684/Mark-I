@@ -1,0 +1,17 @@
+<tipos_baile>
+    <nombre>Tango</nombre>
+    <nombre>Cha-cha-cha</nombre>
+    <nombre>Rock</nombre>
+    <nombre>Merengue</nombre>
+    <nombre>Salsa</nombre>
+    <nombre>Pasodoble</nombre>
+</tipos_baile>
+<!-- 
+    <tipos_baile>
+    {
+            for $e in (doc('bailes.xml')//baile/nombre)
+                return 
+                    $e
+        }
+    </tipos_baile>
+-->

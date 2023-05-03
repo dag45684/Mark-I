@@ -1,0 +1,18 @@
+<bailes>
+    <tipo_plazas>Tango - 20</tipo_plazas>
+    <tipo_plazas>Cha-cha-cha - 18</tipo_plazas>
+    <tipo_plazas>Rock - 15</tipo_plazas>
+    <tipo_plazas>Merengue - 12</tipo_plazas>
+    <tipo_plazas>Salsa - 10</tipo_plazas>
+    <tipo_plazas>Pasodoble - 8</tipo_plazas>
+</bailes>
+
+<!-- 
+<bailes>
+   {
+        for $e in (doc('bailes.xml')//baile)
+              return 
+                <tipo_plazas>{$e/nombre/string()} - {$e/plazas/string()}</tipo_plazas>
+    }
+</bailes>
+-->
